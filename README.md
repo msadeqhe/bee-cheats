@@ -11,3 +11,7 @@ This repository is a collection of cheat sheets. They follow these goals:
 - Linking to reference documentations
 
 Programmers and administrators can explore frequently used information. They may click links to read more details.
+
+# Explore
+
+1. [Characters](characters.md)
