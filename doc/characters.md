@@ -1,31 +1,18 @@
 <h1>ASCII</h1>
 
-<h2>Escape Sequences</h2>
-
 <table>
-<tr><th>Code<th>Notation<th>Name
+<tr><th>Code<th>Glyph<th>Name
 <tr><td>0<td><code>\0</code><td>Null
+<tr><td>1-6<td><td>...
 <tr><td>7<td><code>\a</code><td>Audible Bell
 <tr><td>8<td><code>\b</code><td>Backspace
 <tr><td>9,&nbsp;11<br/>10,&nbsp;12
     <td><code>\t</code> <code>\v</code><br/><code>\n</code> <code>\f</code>
     <td>Horizontal Tab, Vertical Tab<br/>Line Feed (New Line), Form Feed (New Page)
 <tr><td>13<td><code>\r</code><td>Carriage Return
+<tr><td>14-26<td><td>...
 <tr><td>27<td><code>\e</code><td>Escape
-<tr><td>0-255<td><code>\000</code> to <code>\377</code><td>Character from an <i>octal</i> number
-<tr><td>0-255<td><code>\x00</code> to <code>\xFF</code><td>Character from a <i>hexadecimal</i> number
-</table>
-
-<b>Notes:</b>
-<ul>
-<li>Codes are decimal numbers.
-<li>Codes 0-27 and 127 are control characters.
-</ul>
-
-<h2>Printable Characters</h2>
-
-<table>
-<tr><th>Code<th>Glyph<th>Name
+<tr><td>28-31<td><td>File/Group/Record/Unit Separator
 <tr><td>32<td><code>&#32;</code><td>Space
 <tr><td>33<td><code>!</code><td>Exclamation Mark (Bang Symbol)
 <tr><td>34<td><code>"</code><td>Quatation Mark (Double Quote)
@@ -59,16 +46,21 @@
     <td><code>{</code> <code>}</code><br/><code>|</code>
     <td>Braces<br/>Vertical Bar (Vertical Line, Pipe Symbol)
 <tr><td>126<td><code>~</code><td>Tilde (Overline)
+<tr><td>127<td><td>Delete
 </table>
 
 <b>Notes:</b>
 <ul>
 <li>Codes are decimal numbers.
+<li>Codes 0-31 and 127 are C0 control characters.
+<li>Glyphs <code>\...</code> are escape sequences.
 <li>Glyphs <code>&#32;</code>, <code>^</code>, <code>_</code>, <code>`</code> and <code>~</code>
     are spacing characters.
 </ul>
 
 <h1>References</h1>
+
+[Wikipedia (ASCII)](https://en.wikipedia.org/wiki/ASCII)
 
 [C Reference Documentation (Escape sequences)](https://en.cppreference.com/w/c/language/escape)
 
