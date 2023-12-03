@@ -49,9 +49,7 @@
 <tr><td>32<td><code>&#32;</code><td><code>SP</code><td>Space
 <tr><td>33<td colspan="2"><code>!</code><td>Exclamation Mark (Bang Symbol)
 <tr><td>34<td colspan="2"><code>"</code><td>Quatation Mark (Double Quote)
-<tr><td>35<td colspan="2"><code>#</code><td>Number Sign (Hash Sign, Pound Sign, Square Symbol)
-<tr><td>36<td colspan="2"><code>$</code><td>Dollar Sign
-<tr><td>37<td colspan="2"><code>%</code><td>Percent Sign
+<tr><td>35<br/>36<br/>37<td colspan="2"><code>#</code><br/><code>$</code><br/><code>%</code><td>Number Sign (Hash/Pound Sign, Square Symbol)<br/>Dollar Sign<br/>Percent Sign
 <tr><td>38<td colspan="2"><code>&</code><td>Ampersand (And)
 <tr><td>39<td colspan="2"><code>'</code><td>Apostrophe (Single Quote)
 <tr><td>40,&nbsp;41<td colspan="2"><code>(</code>&nbsp;<code>)</code><td>Parentheses
