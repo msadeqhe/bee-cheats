@@ -3,9 +3,12 @@
 <table>
 <tr><th>Code<th>Glyph<th>Abbreviation<th>Name
 <tr><td>0<td><code>\0</code><td><code>NUL</code><td>Null
-<tr><td>1,&nbsp;2<td><td><code>SOH</code>&nbsp;<code>STX</code><td>Start of Heading/Text
-<tr><td>3,&nbsp;4<td><td><code>ETX</code>&nbsp;<code>EOT</code><td>End of Text/Transmission
-<tr><td>5,&nbsp;6<td><td><code>ENQ</code>&nbsp;<code>ACK</code><td>Enquiry, Acknowledge
+<tr><td>1<br/>2<br/>3<br/>4<td>
+    <td><code>SOH</code><br/><code>STX</code><br/><code>ETX</code><br/><code>EOT</code>
+    <td>Start of Heading<br/>Start of Text<br/>End of Text<br/>End of Transmission
+<tr><td>5<br/>6<td>
+    <td><code>ENQ</code><br/><code>ACK</code>
+    <td>Enquiry<br/>Acknowledge
 <tr><td>7<td><code>\a</code><td><code>BEL</code><td>Audible Bell
 <tr><td>8<td><code>\b</code><td><code>BS</code><td>Backspace
 <tr><td>9,&nbsp;11<br/>10,&nbsp;12
@@ -19,12 +22,25 @@
     <td>
     <td><code>DC1</code>&nbsp;<code>DC2</code>&nbsp;<code>DC3</code>&nbsp;<code>DC4</code>
     <td>Device Control 1/2/3/4
-<tr><td>21<td><td><code>NAK</code><td>Negative Acknowledgement
-<tr><td>22<td><td><code>SYN</code><td>Synchronous Idle
-<tr><td>23<td><td><code>ETB</code><td>End of Transmission Block
-<tr><td>24<td><td><code>CAN</code><td>Cancel
-<tr><td>25<td><td><code>EM</code><td>End of Medium
-<tr><td>26<td><td><code>SUB</code><td>Substitute
+<tr><td>21<br/>
+        22<br/>
+        23<br/>
+        24<br/>
+        25<br/>
+        26
+    <td>
+    <td><code>NAK</code><br/>
+        <code>SYN</code><br/>
+        <code>ETB</code><br/>
+        <code>CAN</code><br/>
+        <code>EM</code><br/>
+        <code>SUB</code>
+    <td>Negative Acknowledgement<br/>
+        Synchronous Idle<br/>
+        End of Transmission Block<br/>
+        Cancel<br/>
+        End of Medium<br/>
+        Substitute
 <tr><td>27<td><code>\e</code><td><code>ESC</code><td>Escape
 <tr><td>28-31
     <td>
