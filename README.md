@@ -14,4 +14,4 @@ Programmers and administrators can explore frequently used information. They may
 
 # Explore
 
-1. [Characters](characters.md)
+1. [Characters](doc/characters.md)
