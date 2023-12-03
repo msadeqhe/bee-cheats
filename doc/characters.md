@@ -1,7 +1,7 @@
 <h1>ASCII</h1>
 
 <table>
-<tr><th>Code<th colspan="2">Glyph<th>Name
+<tr><th>Code<th>Glyph<th>Abbreviation<th>Name
 <tr><td>0<td><code>\0</code><td><code>NUL</code><td>Null
 <tr><td>1,&nbsp;2<td><td><code>SOH</code>&nbsp;<code>STX</code><td>Start of Heading/Text
 <tr><td>3,&nbsp;4<td><td><code>ETX</code>&nbsp;<code>EOT</code><td>End of Text/Transmission
