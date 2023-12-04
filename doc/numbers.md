@@ -1,55 +1,76 @@
 <h1>Binary Numbers</h1>
 
 <table>
-<tr><th>Decimal<th>Hexadecimal<th>Octal<th>Quaternary<th>Binary
-<tr><th colspan="5">The size is 1 nibble (4 bits).
-<tr><td>0<td><code>0</code><td><code>0</code><td><code>00</code><td><code>0000</code>
-<tr><td>1<td><code>1</code><td><code>1</code><td><code>01</code><td><code>0001</code>
-<tr><td>2<td><code>2</code><td><code>2</code><td><code>02</code><td><code>0010</code>
-<tr><td>3<td><code>3</code><td><code>3</code><td><code>03</code><td><code>0011</code>
-<tr><td>4<td><code>4</code><td><code>4</code><td><code>10</code><td><code>0100</code>
-<tr><td>5<td><code>5</code><td><code>5</code><td><code>11</code><td><code>0101</code>
-<tr><td>6<td><code>6</code><td><code>6</code><td><code>12</code><td><code>0110</code>
-<tr><td>7<td><code>7</code><td><code>7</code><td><code>13</code><td><code>0111</code>
-<tr><td>8<td><code>8</code><td><code>10</code><td><code>20</code><td><code>1000</code>
-<tr><td>9<td><code>9</code><td><code>11</code><td><code>21</code><td><code>1001</code>
-<tr><td>10<td><code>A</code><td><code>12</code><td><code>22</code><td><code>1010</code>
-<tr><td>11<td><code>B</code><td><code>13</code><td><code>23</code><td><code>1011</code>
-<tr><td>12<td><code>C</code><td><code>14</code><td><code>30</code><td><code>1100</code>
-<tr><td>13<td><code>D</code><td><code>15</code><td><code>31</code><td><code>1101</code>
-<tr><td>14<td><code>E</code><td><code>16</code><td><code>32</code><td><code>1110</code>
-<tr><td>15<td><code>F</code><td><code>17</code><td><code>33</code><td><code>1111</code>
-<tr><th colspan="5">The size is 1 byte (8 bits).
-<tr><td>16<td><code>10</code><td><code>20</code><td><code>0100</code><td><code>00010000</code>
-<tr><td>32<td><code>20</code><td><code>40</code><td><code>0200</code><td><code>00100000</code>
-<tr><td>48<td><code>30</code><td><code>60</code><td><code>0300</code><td><code>00110000</code>
-<tr><td>64<td><code>40</code><td><code>100</code><td><code>1000</code><td><code>01000000</code>
-<tr><td>80<td><code>50</code><td><code>120</code><td><code>1100</code><td><code>01010000</code>
-<tr><td>96<td><code>60</code><td><code>140</code><td><code>1200</code><td><code>01100000</code>
-<tr><td>112<td><code>70</code><td><code>160</code><td><code>1300</code><td><code>01110000</code>
-<tr><td>128<td><code>80</code><td><code>200</code><td><code>2000</code><td><code>10000000</code>
-<tr><td>144<td><code>90</code><td><code>220</code><td><code>2100</code><td><code>10010000</code>
-<tr><td>160<td><code>A0</code><td><code>240</code><td><code>2200</code><td><code>10100000</code>
-<tr><td>176<td><code>B0</code><td><code>260</code><td><code>2300</code><td><code>10110000</code>
-<tr><td>192<td><code>C0</code><td><code>300</code><td><code>3000</code><td><code>11000000</code>
-<tr><td>208<td><code>D0</code><td><code>320</code><td><code>3100</code><td><code>11010000</code>
-<tr><td>224<td><code>E0</code><td><code>340</code><td><code>3200</code><td><code>11100000</code>
-<tr><td>240<td><code>F0</code><td><code>360</code><td><code>3300</code><td><code>11110000</code>
-<tr><td>255<td><code>FF</code><td><code>377</code><td><code>3333</code><td><code>11111111</code>
-<tr><th colspan="5">The size is 2 Bytes (16 bits).
-<tr><td>256<td><code>01 00</code><td><code>400</code><td><code>0001 0000</code><td><code>00000001 00000000</code>
-<tr><td>512<td><code>02 00</code><td><code>1000</code><td><code>0002 0000</code><td><code>00000010 00000000</code>
-<tr><td>1 024<td><code>04 00</code><td><code>2000</code><td><code>0010 0000</code><td><code>00000100 00000000</code>
-<tr><td>2 048<td><code>08 00</code><td><code>4000</code><td><code>0020 0000</code><td><code>00001000 00000000</code>
-<tr><td>4 096<td><code>10 00</code><td><code>10000</code><td><code>0100 0000</code><td><code>00010000 00000000</code>
-<tr><td>8 192<td><code>20 00</code><td><code>20000</code><td><code>0200 0000</code><td><code>00100000 00000000</code>
-<tr><td>16 384<td><code>40 00</code><td><code>40000</code><td><code>1000 0000</code><td><code>01000000 00000000</code>
-<tr><td>32 768<td><code>80 00</code><td><code>100000</code><td><code>2000 0000</code><td><code>10000000 00000000</code>
-<tr><td>65 535<td><code>FF FF</code><td><code>177777</code><td><code>3333 3333</code><td><code>11111111 11111111</code>
-<tr><th colspan="5">The size is 3 Bytes (24 bits).
-<tr><td>65 536<td><code>01 00 00</code><td><code>200000</code><td><code>0001 0000 0000</code><td><code>00000001 0..0 0..0</code>
-<tr><td>1 048 576<td><code>10 00 00</code><td><code>4000000</code><td><code>0100 0000 0000</code><td><code>00010000 0..0 0..0</code>
-<tr><td>16 777 215<td><code>FF FF FF</code><td><code>77777777</code><td><code>3333 3333 3333</code><td><code>11111111 1..1 1..1</code>
+<tr><th rowspan="2">Decimal<th rowspan="2">Binary<th rowspan="2">Quat.<th rowspan="2">Hex.
+    <th colspan="4">Conversion from Hex. to Octal
+<tr><th>
+    <th><code>x: 0-7</code>
+    <th><code>x: 8-F</code>
+    <th>Count
+<tr><td>0<td><code>0000</code><td><code>00</code><td><code>0</code>
+    <td><code>0x</code>
+    <td><code>000</code>-<code>007</code><td><code>010</code>-<code>017</code>
+    <td>0-15
+<tr><td>1<td><code>0001</code><td><code>01</code><td><code>1</code>
+    <td><code>1x</code>
+    <td><code>020</code>-<code>027</code><td><code>030</code>-<code>037</code>
+    <td>16-31
+<tr><td>2<td><code>0010</code><td><code>02</code><td><code>2</code>
+    <td><code>2x</code>
+    <td><code>040</code>-<code>047</code><td><code>050</code>-<code>057</code>
+    <td>32-47
+<tr><td>3<td><code>0011</code><td><code>03</code><td><code>3</code>
+    <td><code>3x</code>
+    <td><code>060</code>-<code>067</code><td><code>070</code>-<code>077</code>
+    <td>48-63
+<tr><td>4<td><code>0100</code><td><code>10</code><td><code>4</code>
+    <td><code>4x</code>
+    <td><code>100</code>-<code>107</code><td><code>110</code>-<code>117</code>
+    <td>64-79
+<tr><td>5<td><code>0101</code><td><code>11</code><td><code>5</code>
+    <td><code>5x</code>
+    <td><code>120</code>-<code>127</code><td><code>130</code>-<code>137</code>
+    <td>80-95
+<tr><td>6<td><code>0110</code><td><code>12</code><td><code>6</code>
+    <td><code>6x</code>
+    <td><code>140</code>-<code>147</code><td><code>150</code>-<code>157</code>
+    <td>96-111
+<tr><td>7<td><code>0111</code><td><code>13</code><td><code>7</code>
+    <td><code>7x</code>
+    <td><code>160</code>-<code>167</code><td><code>170</code>-<code>177</code>
+    <td>112-127
+<tr><td>8<td><code>1000</code><td><code>20</code><td><code>8</code>
+    <td><code>8x</code>
+    <td><code>200</code>-<code>207</code><td><code>210</code>-<code>217</code>
+    <td>128-143
+<tr><td>9<td><code>1001</code><td><code>21</code><td><code>9</code>
+    <td><code>9x</code>
+    <td><code>220</code>-<code>227</code><td><code>230</code>-<code>237</code>
+    <td>144-159
+<tr><td>10<td><code>1010</code><td><code>22</code><td><code>A</code>
+    <td><code>Ax</code>
+    <td><code>240</code>-<code>247</code><td><code>250</code>-<code>257</code>
+    <td>160-175
+<tr><td>11<td><code>1011</code><td><code>23</code><td><code>B</code>
+    <td><code>Bx</code>
+    <td><code>260</code>-<code>267</code><td><code>270</code>-<code>277</code>
+    <td>176-191
+<tr><td>12<td><code>1100</code><td><code>30</code><td><code>C</code>
+    <td><code>Cx</code>
+    <td><code>300</code>-<code>307</code><td><code>310</code>-<code>317</code>
+    <td>192-207
+<tr><td>13<td><code>1101</code><td><code>31</code><td><code>D</code>
+    <td><code>Dx</code>
+    <td><code>320</code>-<code>327</code><td><code>330</code>-<code>337</code>
+    <td>208-223
+<tr><td>14<td><code>1110</code><td><code>32</code><td><code>E</code>
+    <td><code>Ex</code>
+    <td><code>340</code>-<code>347</code><td><code>350</code>-<code>357</code>
+    <td>224-239
+<tr><td>15<td><code>1111</code><td><code>33</code><td><code>F</code>
+    <td><code>Fx</code>
+    <td><code>360</code>-<code>367</code><td><code>370</code>-<code>377</code>
+    <td>240-255
 </table>
 
 <b>Notes:</b>
