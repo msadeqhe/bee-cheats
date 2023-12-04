@@ -3,7 +3,7 @@
 <table>
 <tr><th colspan="5">1 Nibble
     <th colspan="4">1 Byte
-<tr><th>Hex.<th>Oct.<th>Dec.<th>Binary<th>Quat.
+<tr><th>Hex.<th>Oct.<th>Dec.<th>Binary<th>Quaternary
     <th>Hex.
     <th>Oct.
     <th>Dec.
