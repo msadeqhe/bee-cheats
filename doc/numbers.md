@@ -82,3 +82,5 @@
 <h1>References</h1>
 
 [Wikipedia (Binary Number)](https://en.wikipedia.org/wiki/Binary_number)
+
+[Wikipedia (Hexadecimal)](https://en.wikipedia.org/wiki/Hexadecimal)
