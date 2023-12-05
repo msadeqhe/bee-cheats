@@ -1,85 +1,68 @@
-<h1>Binary Numbers</h1>
+# Binary Numbers
 
-<table>
-<tr><th colspan="5">1 Nibble
-    <th colspan="4">1 Byte
-<tr><th>Hex.<th>Oct.<th>Dec.<th>Binary<th>Quaternary
-    <th>Hex.
-    <th>Oct.
-    <th>Dec.
-<tr><td><code>0</code><td><code>00</code><td><code>00</code><td><code>0000</code><td><code>00</code>
-    <td><code>0x</code>
-    <td><code>000 + oct(x)</code>
-    <td><code>000 + dec(x)</code>
-<tr><td><code>1</code><td><code>01</code><td><code>01</code><td><code>0001</code><td><code>01</code>
-    <td><code>1x</code>
-    <td><code>020 + oct(x)</code>
-    <td><code>016 + dec(x)</code>
-<tr><td><code>2</code><td><code>02</code><td><code>02</code><td><code>0010</code><td><code>02</code>
-    <td><code>2x</code>
-    <td><code>040 + oct(x)</code>
-    <td><code>032 + dec(x)</code>
-<tr><td><code>3</code><td><code>03</code><td><code>03</code><td><code>0011</code><td><code>03</code>
-    <td><code>3x</code>
-    <td><code>060 + oct(x)</code>
-    <td><code>048 + dec(x)</code>
-<tr><td><code>4</code><td><code>04</code><td><code>04</code><td><code>0100</code><td><code>10</code>
-    <td><code>4x</code>
-    <td><code>100 + oct(x)</code>
-    <td><code>064 + dec(x)</code>
-<tr><td><code>5</code><td><code>05</code><td><code>05</code><td><code>0101</code><td><code>11</code>
-    <td><code>5x</code>
-    <td><code>120 + oct(x)</code>
-    <td><code>080 + dec(x)</code>
-<tr><td><code>6</code><td><code>06</code><td><code>06</code><td><code>0110</code><td><code>12</code>
-    <td><code>6x</code>
-    <td><code>140 + oct(x)</code>
-    <td><code>096 + dec(x)</code>
-<tr><td><code>7</code><td><code>07</code><td><code>07</code><td><code>0111</code><td><code>13</code>
-    <td><code>7x</code>
-    <td><code>160 + oct(x)</code>
-    <td><code>112 + dec(x)</code>
-<tr><td><code>8</code><td><code>10</code><td><code>08</code><td><code>1000</code><td><code>20</code>
-    <td><code>8x</code>
-    <td><code>200 + oct(x)</code>
-    <td><code>128 + dec(x)</code>
-<tr><td><code>9</code><td><code>11</code><td><code>09</code><td><code>1001</code><td><code>21</code>
-    <td><code>9x</code>
-    <td><code>220 + oct(x)</code>
-    <td><code>144 + dec(x)</code>
-<tr><td><code>A</code><td><code>12</code><td><code>10</code><td><code>1010</code><td><code>22</code>
-    <td><code>Ax</code>
-    <td><code>240 + oct(x)</code>
-    <td><code>160 + dec(x)</code>
-<tr><td><code>B</code><td><code>13</code><td><code>11</code><td><code>1011</code><td><code>23</code>
-    <td><code>Bx</code>
-    <td><code>260 + oct(x)</code>
-    <td><code>176 + dec(x)</code>
-<tr><td><code>C</code><td><code>14</code><td><code>12</code><td><code>1100</code><td><code>30</code>
-    <td><code>Cx</code>
-    <td><code>300 + oct(x)</code>
-    <td><code>192 + dec(x)</code>
-<tr><td><code>D</code><td><code>15</code><td><code>13</code><td><code>1101</code><td><code>31</code>
-    <td><code>Dx</code>
-    <td><code>320 + oct(x)</code>
-    <td><code>208 + dec(x)</code>
-<tr><td><code>E</code><td><code>16</code><td><code>14</code><td><code>1110</code><td><code>32</code>
-    <td><code>Ex</code>
-    <td><code>340 + oct(x)</code>
-    <td><code>224 + dec(x)</code>
-<tr><td><code>F</code><td><code>17</code><td><code>15</code><td><code>1111</code><td><code>33</code>
-    <td><code>Fx</code>
-    <td><code>360 + oct(x)</code>
-    <td><code>240 + dec(x)</code>
-</table>
+## 1 Nibble Conversion
 
-<b>Notes:</b>
-<ul>
-<li>Hexadecimal, quaternary and binary numbers can be easily converted to each other.
-<li><code>x</code> is a hexadecimal digit from <code>0</code> to <code>F</code>.
-</ul>
+Decimal|Octal|Hexadecimal|Quaternary|Binary
+-------|-----|-----------|----------|------
+||||
+`00`   |`00` |`0`        |`00`      |`0000`
+`01`   |`01` |`1`        |`01`      |`0001`
+`02`   |`02` |`2`        |`02`      |`0010`
+`03`   |`03` |`3`        |`03`      |`0011`
+||||
+`04`   |`04` |`4`        |`10`      |`0100`
+`05`   |`05` |`5`        |`11`      |`0101`
+`06`   |`06` |`6`        |`12`      |`0110`
+`07`   |`07` |`7`        |`13`      |`0111`
+||||
+`08`   |`10` |`8`        |`20`      |`1000`
+`09`   |`11` |`9`        |`21`      |`1001`
+`10`   |`12` |`A`        |`22`      |`1010`
+`11`   |`13` |`B`        |`23`      |`1011`
+||||
+`12`   |`14` |`C`        |`30`      |`1100`
+`13`   |`15` |`D`        |`31`      |`1101`
+`14`   |`16` |`E`        |`32`      |`1110`
+`15`   |`17` |`F`        |`33`      |`1111`
+||||
+Decimal|Octal|Hexadecimal|Quaternary|Binary
 
-<h1>References</h1>
+**Notes:**
+
+- Memorizing this table, helps a lot in 1 byte conversion.
+
+## 1 Byte Conversion
+
+Decimal        |Octal          |Hexadecimal  |Quaternary       |Binary
+---------------|---------------|-------------|-----------------|------
+||||
+`000 + n ≤ 015`|`000 + o ≤ 017`|`00 + x ≤ 0F`|`0000 + k ≤ 0033`|`00000000 + b ≤ 00001111`
+`016 + n ≤ 031`|`020 + o ≤ 037`|`10 + x ≤ 1F`|`0100 + k ≤ 0133`|`00010000 + b ≤ 00011111`
+`032 + n ≤ 047`|`040 + o ≤ 057`|`20 + x ≤ 2F`|`0200 + k ≤ 0233`|`00100000 + b ≤ 00101111`
+`048 + n ≤ 063`|`060 + o ≤ 077`|`30 + x ≤ 3F`|`0300 + k ≤ 0333`|`00110000 + b ≤ 00111111`
+||||
+`064 + n ≤ 079`|`100 + o ≤ 117`|`40 + x ≤ 4F`|`1000 + k ≤ 1033`|`01000000 + b ≤ 01001111`
+`080 + n ≤ 095`|`120 + o ≤ 137`|`50 + x ≤ 5F`|`1100 + k ≤ 1133`|`01010000 + b ≤ 01011111`
+`096 + n ≤ 111`|`140 + o ≤ 157`|`60 + x ≤ 6F`|`1200 + k ≤ 1233`|`01100000 + b ≤ 01101111`
+`112 + n ≤ 127`|`160 + o ≤ 177`|`70 + x ≤ 7F`|`1300 + k ≤ 1333`|`01110000 + b ≤ 01111111`
+||||
+`128 + n ≤ 143`|`200 + o ≤ 217`|`80 + x ≤ 8F`|`2000 + k ≤ 2033`|`10000000 + b ≤ 10001111`
+`144 + n ≤ 159`|`220 + o ≤ 237`|`90 + x ≤ 9F`|`2100 + k ≤ 2133`|`10010000 + b ≤ 10011111`
+`160 + n ≤ 175`|`240 + o ≤ 257`|`A0 + x ≤ AF`|`2200 + k ≤ 2233`|`10100000 + b ≤ 10101111`
+`176 + n ≤ 191`|`260 + o ≤ 277`|`B0 + x ≤ BF`|`2300 + k ≤ 2333`|`10110000 + b ≤ 10111111`
+||||
+`192 + n ≤ 207`|`300 + o ≤ 317`|`C0 + x ≤ CF`|`3000 + k ≤ 3033`|`11000000 + b ≤ 11001111`
+`208 + n ≤ 223`|`320 + o ≤ 337`|`D0 + x ≤ DF`|`3100 + k ≤ 3133`|`11010000 + b ≤ 11011111`
+`224 + n ≤ 239`|`340 + o ≤ 357`|`E0 + x ≤ EF`|`3200 + k ≤ 3233`|`11100000 + b ≤ 11101111`
+`240 + n ≤ 255`|`360 + o ≤ 377`|`F0 + x ≤ FF`|`3300 + k ≤ 3333`|`11110000 + b ≤ 11111111`
+||||
+Decimal        |Octal          |Hexadecimal  |Quaternary       |Binary
+
+**Notes:**
+
+- Hexadecimal, quaternary and binary numbers can be easily converted to each other.
+
+# References
 
 [Wikipedia (Binary Number)](https://en.wikipedia.org/wiki/Binary_number)
 
