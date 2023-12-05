@@ -65,7 +65,7 @@ Code        |Glyph [Abbreviation]          |Name
 **Notes:**
 
 - Codes are decimal numbers.
-- Codes 0-31 are C0 control characters.
+- Codes `0-31` are C0 control characters.
 - Glyphs ` `, `^`, `_`, `` ` `` and `~` are spacing characters.
 
 # References
