@@ -16,3 +16,4 @@ Programmers and administrators can explore frequently used information. They may
 
 1. [Characters](doc/characters.md)
 2. [Numbers](doc/numbers.md)
+3. [Colors](doc/colors.md)
