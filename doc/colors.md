@@ -2,32 +2,32 @@
 
 |Red      |Green|Blue |`000`              |`063`              |`127`              |`191`              |`255`|
 |---------|-----|-----|-------------------|-------------------|-------------------|-------------------|-----|
-|`000-255`|`000`|`000`|$\color{#000000}██$|$\color{#3F0000}██$|$\color{#7F0000}██$|$\color{#BF0000}██$|$\color{#FF0000}██$|
-|`000-255`|`063`|`000`|$\color{#003F00}██$|$\color{#3F3F00}██$|$\color{#7F3F00}██$|$\color{#BF3F00}██$|$\color{#FF3F00}██$|
-|`000-255`|`127`|`000`|$\color{#007F00}██$|$\color{#3F7F00}██$|$\color{#7F7F00}██$|$\color{#BF7F00}██$|$\color{#FF7F00}██$|
-|`000-255`|`191`|`000`|$\color{#00BF00}██$|$\color{#3FBF00}██$|$\color{#7FBF00}██$|$\color{#BFBF00}██$|$\color{#FFBF00}██$|
-|`000-255`|`255`|`000`|$\color{#00FF00}██$|$\color{#3FFF00}██$|$\color{#7FFF00}██$|$\color{#BFFF00}██$|$\color{#FFFF00}██$|
+|`000`|`000`|`000-255`|$\color{#000000}██$|$\color{#00003F}██$|$\color{#00007F}██$|$\color{#0000BF}██$|$\color{#0000FF}██$|
+|`000`|`063`|`000-255`|$\color{#003F00}██$|$\color{#003F3F}██$|$\color{#003F7F}██$|$\color{#003FBF}██$|$\color{#003FFF}██$|
+|`000`|`127`|`000-255`|$\color{#007F00}██$|$\color{#007F3F}██$|$\color{#007F7F}██$|$\color{#007FBF}██$|$\color{#007FFF}██$|
+|`000`|`191`|`000-255`|$\color{#00BF00}██$|$\color{#00BF3F}██$|$\color{#00BF7F}██$|$\color{#00BFBF}██$|$\color{#00BFFF}██$|
+|`000`|`255`|`000-255`|$\color{#00FF00}██$|$\color{#00FF3F}██$|$\color{#00FF7F}██$|$\color{#00FFBF}██$|$\color{#00FFFF}██$|
 |         |     |     |                   |                   |                   |                   |     |
-|`000-255`|`000`|`063`|$\color{#00003F}██$|$\color{#3F003F}██$|$\color{#7F003F}██$|$\color{#BF003F}██$|$\color{#FF003F}██$|
-|`000-255`|`063`|`063`|$\color{#003F3F}██$|$\color{#3F3F3F}██$|$\color{#7F3F3F}██$|$\color{#BF3F3F}██$|$\color{#FF3F3F}██$|
-|`000-255`|`127`|`063`|$\color{#007F3F}██$|$\color{#3F7F3F}██$|$\color{#7F7F3F}██$|$\color{#BF7F3F}██$|$\color{#FF7F3F}██$|
-|`000-255`|`191`|`063`|$\color{#00BF3F}██$|$\color{#3FBF3F}██$|$\color{#7FBF3F}██$|$\color{#BFBF3F}██$|$\color{#FFBF3F}██$|
-|`000-255`|`255`|`063`|$\color{#00FF3F}██$|$\color{#3FFF3F}██$|$\color{#7FFF3F}██$|$\color{#BFFF3F}██$|$\color{#FFFF3F}██$|
+|`063`|`000`|`000-255`|$\color{#3F0000}██$|$\color{#3F003F}██$|$\color{#3F007F}██$|$\color{#3F00BF}██$|$\color{#3F00FF}██$|
+|`063`|`063`|`000-255`|$\color{#3F3F00}██$|$\color{#3F3F3F}██$|$\color{#3F3F7F}██$|$\color{#3F3FBF}██$|$\color{#3F3FFF}██$|
+|`063`|`127`|`000-255`|$\color{#3F7F00}██$|$\color{#3F7F3F}██$|$\color{#3F7F7F}██$|$\color{#3F7FBF}██$|$\color{#3F7FFF}██$|
+|`063`|`191`|`000-255`|$\color{#3FBF00}██$|$\color{#3FBF3F}██$|$\color{#3FBF7F}██$|$\color{#3FBFBF}██$|$\color{#3FBFFF}██$|
+|`063`|`255`|`000-255`|$\color{#3FFF00}██$|$\color{#3FFF3F}██$|$\color{#3FFF7F}██$|$\color{#3FFFBF}██$|$\color{#3FFFFF}██$|
 |         |     |     |                   |                   |                   |                   |     |
-|`000-255`|`000`|`127`|$\color{#00007F}██$|$\color{#3F007F}██$|$\color{#7F007F}██$|$\color{#BF007F}██$|$\color{#FF007F}██$|
-|`000-255`|`063`|`127`|$\color{#003F7F}██$|$\color{#3F3F7F}██$|$\color{#7F3F7F}██$|$\color{#BF3F7F}██$|$\color{#FF3F7F}██$|
-|`000-255`|`127`|`127`|$\color{#007F7F}██$|$\color{#3F7F7F}██$|$\color{#7F7F7F}██$|$\color{#BF7F7F}██$|$\color{#FF7F7F}██$|
-|`000-255`|`191`|`127`|$\color{#00BF7F}██$|$\color{#3FBF7F}██$|$\color{#7FBF7F}██$|$\color{#BFBF7F}██$|$\color{#FFBF7F}██$|
-|`000-255`|`255`|`127`|$\color{#00FF7F}██$|$\color{#3FFF7F}██$|$\color{#7FFF7F}██$|$\color{#BFFF7F}██$|$\color{#FFFF7F}██$|
+|`127`|`000`|`000-255`|$\color{#7F0000}██$|$\color{#7F003F}██$|$\color{#7F007F}██$|$\color{#7F00BF}██$|$\color{#7F00FF}██$|
+|`127`|`063`|`000-255`|$\color{#7F3F00}██$|$\color{#7F3F3F}██$|$\color{#7F3F7F}██$|$\color{#7F3FBF}██$|$\color{#7F3FFF}██$|
+|`127`|`127`|`000-255`|$\color{#7F7F00}██$|$\color{#7F7F3F}██$|$\color{#7F7F7F}██$|$\color{#7F7FBF}██$|$\color{#7F7FFF}██$|
+|`127`|`191`|`000-255`|$\color{#7FBF00}██$|$\color{#7FBF3F}██$|$\color{#7FBF7F}██$|$\color{#7FBFBF}██$|$\color{#7FBFFF}██$|
+|`127`|`255`|`000-255`|$\color{#7FFF00}██$|$\color{#7FFF3F}██$|$\color{#7FFF7F}██$|$\color{#7FFFBF}██$|$\color{#7FFFFF}██$|
 |         |     |     |                   |                   |                   |                   |     |
-|`000-255`|`000`|`191`|$\color{#0000BF}██$|$\color{#3F00BF}██$|$\color{#7F00BF}██$|$\color{#BF00BF}██$|$\color{#FF00BF}██$|
-|`000-255`|`063`|`191`|$\color{#003FBF}██$|$\color{#3F3FBF}██$|$\color{#7F3FBF}██$|$\color{#BF3FBF}██$|$\color{#FF3FBF}██$|
-|`000-255`|`127`|`191`|$\color{#007FBF}██$|$\color{#3F7FBF}██$|$\color{#7F7FBF}██$|$\color{#BF7FBF}██$|$\color{#FF7FBF}██$|
-|`000-255`|`191`|`191`|$\color{#00BFBF}██$|$\color{#3FBFBF}██$|$\color{#7FBFBF}██$|$\color{#BFBFBF}██$|$\color{#FFBFBF}██$|
-|`000-255`|`255`|`191`|$\color{#00FFBF}██$|$\color{#3FFFBF}██$|$\color{#7FFFBF}██$|$\color{#BFFFBF}██$|$\color{#FFFFBF}██$|
+|`191`|`000`|`000-255`|$\color{#BF0000}██$|$\color{#BF003F}██$|$\color{#BF007F}██$|$\color{#BF00BF}██$|$\color{#BF00FF}██$|
+|`191`|`063`|`000-255`|$\color{#BF3F00}██$|$\color{#BF3F3F}██$|$\color{#BF3F7F}██$|$\color{#BF3FBF}██$|$\color{#BF3FFF}██$|
+|`191`|`127`|`000-255`|$\color{#BF7F00}██$|$\color{#BF7F3F}██$|$\color{#BF7F7F}██$|$\color{#BF7FBF}██$|$\color{#BF7FFF}██$|
+|`191`|`191`|`000-255`|$\color{#BFBF00}██$|$\color{#BFBF3F}██$|$\color{#BFBF7F}██$|$\color{#BFBFBF}██$|$\color{#BFBFFF}██$|
+|`191`|`255`|`000-255`|$\color{#BFFF00}██$|$\color{#BFFF3F}██$|$\color{#BFFF7F}██$|$\color{#BFFFBF}██$|$\color{#BFFFFF}██$|
 |         |     |     |                   |                   |                   |                   |     |
-|`000-255`|`000`|`255`|$\color{#0000FF}██$|$\color{#3F00FF}██$|$\color{#7F00FF}██$|$\color{#BF00FF}██$|$\color{#FF00FF}██$|
-|`000-255`|`063`|`255`|$\color{#003FFF}██$|$\color{#3F3FFF}██$|$\color{#7F3FFF}██$|$\color{#BF3FFF}██$|$\color{#FF3FFF}██$|
-|`000-255`|`127`|`255`|$\color{#007FFF}██$|$\color{#3F7FFF}██$|$\color{#7F7FFF}██$|$\color{#BF7FFF}██$|$\color{#FF7FFF}██$|
-|`000-255`|`191`|`255`|$\color{#00BFFF}██$|$\color{#3FBFFF}██$|$\color{#7FBFFF}██$|$\color{#BFBFFF}██$|$\color{#FFBFFF}██$|
-|`000-255`|`255`|`255`|$\color{#00FFFF}██$|$\color{#3FFFFF}██$|$\color{#7FFFFF}██$|$\color{#BFFFFF}██$|$\color{#FFFFFF}██$|
+|`255`|`000`|`000-255`|$\color{#FF0000}██$|$\color{#FF003F}██$|$\color{#FF007F}██$|$\color{#FF00BF}██$|$\color{#FF00FF}██$|
+|`255`|`063`|`000-255`|$\color{#FF3F00}██$|$\color{#FF3F3F}██$|$\color{#FF3F7F}██$|$\color{#FF3FBF}██$|$\color{#FF3FFF}██$|
+|`255`|`127`|`000-255`|$\color{#FF7F00}██$|$\color{#FF7F3F}██$|$\color{#FF7F7F}██$|$\color{#FF7FBF}██$|$\color{#FF7FFF}██$|
+|`255`|`191`|`000-255`|$\color{#FFBF00}██$|$\color{#FFBF3F}██$|$\color{#FFBF7F}██$|$\color{#FFBFBF}██$|$\color{#FFBFFF}██$|
+|`255`|`255`|`000-255`|$\color{#FFFF00}██$|$\color{#FFFF3F}██$|$\color{#FFFF7F}██$|$\color{#FFFFBF}██$|$\color{#FFFFFF}██$|
