@@ -59,8 +59,6 @@
 |`124`       |` ` `\|` ` `                  |Vertical Bar (Vertical Line, Pipe Symbol)|
 |`126`       |`~`                           |Tilde (Overline)|
 |`127`       |`  ` [`DEL`]                  |Delete (Punch Hole)|
-|            |                              |    |
-|Code        |Glyph [Abbreviation]          |Name|
 
 **Notes:**
 

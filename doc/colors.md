@@ -34,8 +34,6 @@
 |`255`|`127`|`000-255`|$\color{#FF7F00}██$|$\color{#FF7F3F}██$|$\color{#FF7F7F}██$|$\color{#FF7FBF}██$|$\color{#FF7FFF}██$|
 |`255`|`191`|`000-255`|$\color{#FFBF00}██$|$\color{#FFBF3F}██$|$\color{#FFBF7F}██$|$\color{#FFBFBF}██$|$\color{#FFBFFF}██$|
 |`255`|`255`|`000-255`|$\color{#FFFF00}██$|$\color{#FFFF3F}██$|$\color{#FFFF7F}██$|$\color{#FFFFBF}██$|$\color{#FFFFFF}██$|
-|     |     |         |                   |                   |                   |                   |     |
-|Red  |Green|Blue     |`000`              |`063`              |`127`              |`191`              |`255`|
 
 ## Terminal Color Codes
 
