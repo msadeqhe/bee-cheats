@@ -64,7 +64,7 @@
 
 - Codes are decimal numbers.
 - Codes `0-31` are C0 control characters.
-- Glyphs ` `, `^`, `_`, `` ` `` and `~` are spacing characters.
+- Glyphs `␣`, `^`, `_`, `` ` `` and `~` are spacing characters.
 
 # References
 
