@@ -27,7 +27,7 @@
 |`27`        |`\e` [`ESC`]                  |Escape|
 |`28-31`     |`  ` [`FS ` `GS ` `RS ` `US `]|File/Group/Record/Unit Separator|
 |            |                              |    |
-|`32`        |`␣` [`SP `]                   |Space|
+|`32`        |`␣ ` [`SP `]                  |Space|
 |`33`        |`!`                           |Exclamation Mark (Bang Symbol)|
 |`34`        |`"`                           |Quatation Mark (Double Quote)|
 |`35`        |`#`                           |Number Sign (Hash/Pound Sign, Square Symbol)|
@@ -58,7 +58,7 @@
 |`123`, `125`|`{`  ` ` `}`                  |Braces|
 |`124`       |` ` `\|` ` `                  |Vertical Bar (Vertical Line, Pipe Symbol)|
 |`126`       |`~`                           |Tilde (Overline)|
-|`127`       |` ` [`DEL`]                   |Delete (Punch Hole)|
+|`127`       |`  ` [`DEL`]                  |Delete (Punch Hole)|
 
 **Notes:**
 
