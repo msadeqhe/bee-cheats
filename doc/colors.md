@@ -2,153 +2,50 @@
 
 ## Color Names
 
-|Red  |Green|Blue |Example                                            |Name|
-|-----|-----|-----|---------------------------------------------------|----|
-|     |     |     |                                                   |    |
-|`000`|`000`|`000`|$\color{#000000}████$                              |Black|
-|`063`|`063`|`063`|$\color{#3F3F3F}████$                              |Gray|
-|`127`|`127`|`127`|$\color{#7F7F7F}████$                              |Gray|
-|`191`|`191`|`191`|$\color{#BFBFBF}████$                              |Gray|
-|`255`|`255`|`255`|$\color{#FFFFFF}████$                              |White|
-|     |     |     |                                                   |    |
-|`063`|`000`|`000`|$\color{#1F0000}█\color{#3F0000}██\color{#9F7F7F}█$|Red |
-|`000`|`063`|`000`|$\color{#001F00}█\color{#003F00}██\color{#7F9F7F}█$|Green|
-|`000`|`000`|`063`|$\color{#00001F}█\color{#00003F}██\color{#7F7F9F}█$|Blue|
-|`063`|`063`|`000`|$\color{#1F1F00}█\color{#3F3F00}██\color{#9F9F7F}█$|Yellow|
-|`063`|`000`|`063`|$\color{#1F001F}█\color{#3F003F}██\color{#9F7F9F}█$|Magenta|
-|`000`|`063`|`063`|$\color{#001F1F}█\color{#003F3F}██\color{#7F9F9F}█$|Cyan|
-|     |     |     |                                                   |    |
-|`127`|`000`|`000`|$\color{#3F0000}█\color{#7F0000}██\color{#BF7F7F}█$|Red |
-|`000`|`127`|`000`|$\color{#003F00}█\color{#007F00}██\color{#7FBF7F}█$|Green|
-|`000`|`000`|`127`|$\color{#00003F}█\color{#00007F}██\color{#7F7FBF}█$|Blue|
-|`127`|`127`|`000`|$\color{#3F3F00}█\color{#7F7F00}██\color{#BFBF7F}█$|Yellow|
-|`127`|`000`|`127`|$\color{#3F003F}█\color{#7F007F}██\color{#BF7FBF}█$|Magenta|
-|`000`|`127`|`127`|$\color{#003F3F}█\color{#007F7F}██\color{#7FBFBF}█$|Cyan|
-|     |     |     |                                                   |    |
-|`191`|`000`|`000`|$\color{#5F0000}█\color{#BF0000}██\color{#DF7F7F}█$|Red |
-|`000`|`191`|`000`|$\color{#005F00}█\color{#00BF00}██\color{#7FDF7F}█$|Green|
-|`000`|`000`|`191`|$\color{#00005F}█\color{#0000BF}██\color{#7F7FDF}█$|Blue|
-|`191`|`191`|`000`|$\color{#5F5F00}█\color{#BFBF00}██\color{#DFDF7F}█$|Yellow|
-|`191`|`000`|`191`|$\color{#5F007F}█\color{#BF00BF}██\color{#DF7FDF}█$|Magenta|
-|`000`|`191`|`191`|$\color{#005F5F}█\color{#00BFBF}██\color{#7FDFDF}█$|Cyan|
-|     |     |     |                                                   |    |
-|`255`|`000`|`000`|$\color{#7F0000}█\color{#FF0000}██\color{#FF7F7F}█$|Red |
-|`000`|`255`|`000`|$\color{#007F00}█\color{#00FF00}██\color{#7FFF7F}█$|Green|
-|`000`|`000`|`255`|$\color{#00007F}█\color{#0000FF}██\color{#7F7FFF}█$|Blue|
-|`255`|`255`|`000`|$\color{#7F7F00}█\color{#FFFF00}██\color{#FFFF7F}█$|Yellow|
-|`255`|`000`|`255`|$\color{#7F007F}█\color{#FF00FF}██\color{#FF7FFF}█$|Magenta|
-|`000`|`255`|`255`|$\color{#007F7F}█\color{#00FFFF}██\color{#7FFFFF}█$|Cyan|
-|     |     |     |                                                   |    |
-|`255`|`063`|`063`|$\color{#7F1F1F}█\color{#FF3F3F}██\color{#FF9F9F}█$|Red |
-|`063`|`255`|`063`|$\color{#1F7F1F}█\color{#3FFF3F}██\color{#9FFF9F}█$|Green|
-|`063`|`063`|`255`|$\color{#1F1F7F}█\color{#3F3FFF}██\color{#9F9FFF}█$|Blue|
-|`255`|`255`|`063`|$\color{#7F7F1F}█\color{#FFFF3F}██\color{#FFFF9F}█$|Yellow|
-|`255`|`063`|`255`|$\color{#7F1F7F}█\color{#FF3FFF}██\color{#FF9FFF}█$|Magenta|
-|`063`|`255`|`255`|$\color{#1F7F7F}█\color{#3FFFFF}██\color{#9FFFFF}█$|Cyan|
-|     |     |     |                                                   |    |
-|`255`|`127`|`127`|$\color{#7F3F3F}█\color{#FF7F7F}██\color{#FFBFBF}█$|Red |
-|`127`|`255`|`127`|$\color{#3F7F3F}█\color{#7FFF7F}██\color{#BFFFBF}█$|Green|
-|`127`|`127`|`255`|$\color{#3F3F7F}█\color{#7F7FFF}██\color{#BFBFFF}█$|Blue|
-|`255`|`255`|`127`|$\color{#7F7F3F}█\color{#FFFF7F}██\color{#FFFFBF}█$|Yellow|
-|`255`|`127`|`255`|$\color{#7F3F7F}█\color{#FF7FFF}██\color{#FFBFFF}█$|Magenta|
-|`127`|`255`|`255`|$\color{#3F7F7F}█\color{#7FFFFF}██\color{#BFFFFF}█$|Cyan|
-|     |     |     |                                                   |    |
-|`255`|`191`|`191`|$\color{#7F5F5F}█\color{#FFBFBF}██\color{#FFDFDF}█$|Red |
-|`191`|`255`|`191`|$\color{#5F7F5F}█\color{#BFFFBF}██\color{#DFFFDF}█$|Green|
-|`191`|`191`|`255`|$\color{#5F5F7F}█\color{#BFBFFF}██\color{#DFDFFF}█$|Blue|
-|`255`|`255`|`191`|$\color{#7F7F5F}█\color{#FFFFBF}██\color{#FFFFDF}█$|Yellow|
-|`255`|`191`|`255`|$\color{#7F5F7F}█\color{#FFBFFF}██\color{#FFDFFF}█$|Magenta|
-|`191`|`255`|`255`|$\color{#5F7F7F}█\color{#BFFFFF}██\color{#DFFFFF}█$|Cyan|
-|     |     |     |                                                   |    |
-|`255`|`000`|`127`|$\color{#7F003F}█\color{#FF007F}██\color{#FF7FBF}█$|Pink|
-|`127`|`255`|`000`|$\color{#3F7F00}█\color{#7FFF00}██\color{#BFFF7F}█$|    |
-|`000`|`127`|`255`|$\color{#003F7F}█\color{#007FFF}██\color{#7FBFFF}█$|Azure|
-|`255`|`127`|`000`|$\color{#7F3F00}█\color{#FF7F00}██\color{#FFBF7F}█$|Orange|
-|`127`|`000`|`255`|$\color{#3F007F}█\color{#7F00FF}██\color{#BF7FFF}█$|Violet|
-|`000`|`255`|`127`|$\color{#007F3F}█\color{#00FF7F}██\color{#7FFFBF}█$|    |
-|     |     |     |                                                   |    |
-|`255`|`063`|`191`|$\color{#7F1F5F}█\color{#FF3FBF}██\color{#FF9FDF}█$|    |
-|`191`|`255`|`063`|$\color{#5F7F1F}█\color{#BFFF3F}██\color{#DFFF9F}█$|    |
-|`063`|`191`|`255`|$\color{#1F5F7F}█\color{#3FBFFF}██\color{#9FDFFF}█$|    |
-|`255`|`191`|`063`|$\color{#7F5F1F}█\color{#FFBF3F}██\color{#FFDF9F}█$|    |
-|`191`|`063`|`255`|$\color{#5F1F7F}█\color{#BF3FFF}██\color{#DF9FFF}█$|    |
-|`063`|`255`|`191`|$\color{#1F7F5F}█\color{#3FFFBF}██\color{#9FFFDF}█$|    |
-|     |     |     |                                                   |    |
-|`255`|`000`|`063`|$\color{#7F001F}█\color{#FF003F}██\color{#FF7F9F}█$|    |
-|`063`|`255`|`000`|$\color{#1F7F00}█\color{#3FFF00}██\color{#9FFF7F}█$|    |
-|`000`|`063`|`255`|$\color{#001F7F}█\color{#003FFF}██\color{#7F9FFF}█$|    |
-|`255`|`063`|`000`|$\color{#7F1F00}█\color{#FF3F00}██\color{#FF9F7F}█$|    |
-|`063`|`000`|`255`|$\color{#1F007F}█\color{#3F00FF}██\color{#9F7FFF}█$|    |
-|`000`|`255`|`063`|$\color{#007F1F}█\color{#00FF3F}██\color{#7FFF9F}█$|    |
-|     |     |     |                                                   |    |
-|`255`|`063`|`127`|$\color{#7F1F3F}█\color{#FF3F7F}██\color{#FF9FBF}█$|    |
-|`127`|`255`|`063`|$\color{#3F7F1F}█\color{#7FFF3F}██\color{#BFFF9F}█$|    |
-|`063`|`127`|`255`|$\color{#1F3F7F}█\color{#3F7FFF}██\color{#9FBFFF}█$|    |
-|`255`|`127`|`063`|$\color{#7F3F1F}█\color{#FF7F3F}██\color{#FFBF9F}█$|    |
-|`127`|`063`|`255`|$\color{#3F1F7F}█\color{#7F3FFF}██\color{#BF9FFF}█$|    |
-|`063`|`255`|`127`|$\color{#1F7F3F}█\color{#3FFF7F}██\color{#9FFFBF}█$|    |
-|     |     |     |                                                   |    |
-|`255`|`000`|`191`|$\color{#7F005F}█\color{#FF00BF}██\color{#FF7FDF}█$|    |
-|`191`|`255`|`000`|$\color{#5F7F00}█\color{#BFFF00}██\color{#DFFF7F}█$|    |
-|`000`|`191`|`255`|$\color{#005F7F}█\color{#00BFFF}██\color{#7FDFFF}█$|    |
-|`255`|`191`|`000`|$\color{#7F5F00}█\color{#FFBF00}██\color{#FFDF7F}█$|    |
-|`191`|`000`|`255`|$\color{#5F007F}█\color{#BF00FF}██\color{#DF7FFF}█$|    |
-|`000`|`255`|`191`|$\color{#007F5F}█\color{#00FFBF}██\color{#7FFFDF}█$|    |
-|     |     |     |                                                   |    |
-|`255`|`127`|`191`|$\color{#7F3F5F}█\color{#FF7FBF}██\color{#FFBFDF}█$|    |
-|`191`|`255`|`127`|$\color{#5F7F3F}█\color{#BFFF7F}██\color{#DFFFBF}█$|    |
-|`127`|`191`|`255`|$\color{#3F5F7F}█\color{#7FBFFF}██\color{#BFDFFF}█$|    |
-|`255`|`191`|`127`|$\color{#7F5F3F}█\color{#FFBF7F}██\color{#FFDFBF}█$|    |
-|`191`|`127`|`255`|$\color{#5F3F7F}█\color{#BF7FFF}██\color{#DFBFFF}█$|    |
-|`127`|`255`|`191`|$\color{#3F7F5F}█\color{#7FFFBF}██\color{#BFFFDF}█$|    |
-|     |     |     |                                                   |    |
-|`191`|`000`|`063`|$\color{#5F001F}█\color{#BF003F}██\color{#DF7F9F}█$|    |
-|`063`|`191`|`000`|$\color{#1F5F00}█\color{#3FBF00}██\color{#9FDF7F}█$|    |
-|`000`|`063`|`191`|$\color{#001F5F}█\color{#003FBF}██\color{#7F9FDF}█$|    |
-|`191`|`063`|`000`|$\color{#5F1F00}█\color{#BF3F00}██\color{#DF9F7F}█$|    |
-|`063`|`000`|`191`|$\color{#1F005F}█\color{#3F00BF}██\color{#9F7FDF}█$|    |
-|`000`|`191`|`063`|$\color{#005F1F}█\color{#00BF3F}██\color{#7FDF9F}█$|    |
-|     |     |     |                                                   |    |
-|`191`|`000`|`127`|$\color{#5F003F}█\color{#BF007F}██\color{#DF7FBF}█$|    |
-|`127`|`191`|`000`|$\color{#3F5F00}█\color{#7FBF00}██\color{#BFDF7F}█$|    |
-|`000`|`127`|`191`|$\color{#003F5F}█\color{#007FBF}██\color{#7FBFDF}█$|    |
-|`191`|`127`|`000`|$\color{#5F3F00}█\color{#BF7F00}██\color{#DFBF7F}█$|    |
-|`127`|`000`|`191`|$\color{#3F005F}█\color{#7F00BF}██\color{#BF7FDF}█$|    |
-|`000`|`191`|`127`|$\color{#005F3F}█\color{#00BF7F}██\color{#7FDFBF}█$|    |
-|     |     |     |                                                   |    |
-|`191`|`063`|`063`|$\color{#5F1F1F}█\color{#BF3F3F}██\color{#DF9F9F}█$|    |
-|`063`|`191`|`063`|$\color{#1F5F1F}█\color{#3FBF3F}██\color{#9FDF9F}█$|    |
-|`063`|`063`|`191`|$\color{#1F1F5F}█\color{#3F3FBF}██\color{#9F9FDF}█$|    |
-|`191`|`191`|`063`|$\color{#5F5F1F}█\color{#BFBF3F}██\color{#DFDF9F}█$|    |
-|`191`|`063`|`191`|$\color{#5F1F5F}█\color{#BF3FBF}██\color{#DF9FDF}█$|    |
-|`063`|`191`|`191`|$\color{#1F5F5F}█\color{#3FBFBF}██\color{#9FDFDF}█$|    |
-|     |     |     |                                                   |    |
-|`191`|`063`|`127`|$\color{#5F1F3F}█\color{#BF3F7F}██\color{#DF9FBF}█$|    |
-|`127`|`191`|`063`|$\color{#3F5F1F}█\color{#7FBF3F}██\color{#BFDF9F}█$|    |
-|`063`|`127`|`191`|$\color{#1F3F5F}█\color{#3F7FBF}██\color{#9FBFDF}█$|    |
-|`191`|`127`|`063`|$\color{#5F3F1F}█\color{#BF7F3F}██\color{#DFBF9F}█$|Brown|
-|`127`|`063`|`191`|$\color{#3F1F5F}█\color{#7F3FBF}██\color{#BF9FDF}█$|    |
-|`063`|`191`|`127`|$\color{#1F5F3F}█\color{#3FBF7F}██\color{#9FDFBF}█$|    |
-|     |     |     |                                                   |    |
-|`191`|`127`|`127`|$\color{#5F3F3F}█\color{#BF7F7F}██\color{#DFBFBF}█$|    |
-|`127`|`191`|`127`|$\color{#3F5F3F}█\color{#7FBF7F}██\color{#BFDFBF}█$|    |
-|`127`|`127`|`191`|$\color{#3F3F5F}█\color{#7F7FBF}██\color{#BFBFDF}█$|    |
-|`191`|`191`|`127`|$\color{#5F5F3F}█\color{#BFBF7F}██\color{#DFDFBF}█$|    |
-|`191`|`127`|`191`|$\color{#5F3F5F}█\color{#BF7FBF}██\color{#DFBFDF}█$|    |
-|`127`|`191`|`191`|$\color{#3F5F5F}█\color{#7FBFBF}██\color{#BFDFDF}█$|    |
-|     |     |     |                                                   |    |
-|`127`|`000`|`063`|$\color{#3F001F}█\color{#7F003F}██\color{#BF7F9F}█$|    |
-|`063`|`127`|`000`|$\color{#1F3F00}█\color{#3F7F00}██\color{#9FBF7F}█$|    |
-|`000`|`063`|`127`|$\color{#001F3F}█\color{#003F7F}██\color{#7F9FBF}█$|    |
-|`127`|`063`|`000`|$\color{#3F1F00}█\color{#7F3F00}██\color{#BF9F7F}█$|    |
-|`063`|`000`|`127`|$\color{#1F003F}█\color{#3F007F}██\color{#9F7FBF}█$|    |
-|`000`|`127`|`063`|$\color{#003F1F}█\color{#007F3F}██\color{#7FBF9F}█$|    |
-|     |     |     |                                                   |    |
-|`127`|`063`|`063`|$\color{#3F1F1F}█\color{#7F3F3F}██\color{#BF9F9F}█$|    |
-|`063`|`127`|`063`|$\color{#1F3F1F}█\color{#3F7F3F}██\color{#9FBF9F}█$|    |
-|`063`|`063`|`127`|$\color{#1F1F3F}█\color{#3F3F7F}██\color{#9F9FBF}█$|    |
-|`127`|`127`|`063`|$\color{#3F3F1F}█\color{#7F7F3F}██\color{#BFBF9F}█$|    |
-|`127`|`063`|`127`|$\color{#3F1F3F}█\color{#7F3F7F}██\color{#BF9FBF}█$|    |
-|`063`|`127`|`127`|$\color{#1F3F3F}█\color{#3F7F7F}██\color{#9FBFBF}█$|    |
+|1                                                      |2                                                      |3                                                      |4                                                      |5                                                      |6|
+|-------------------------------------------------------|-------------------------------------------------------|-------------------------------------------------------|-------------------------------------------------------|-------------------------------------------------------|--|
+|                                                       |                                                       |                                                       |                                                       |                                                       | |
+|$\color{#1F0000}██\color{#3F0000}████\color{#9F7F7F}██$|$\color{#001F00}██\color{#003F00}████\color{#7F9F7F}██$|$\color{#00001F}██\color{#00003F}████\color{#7F7F9F}██$|$\color{#1F1F00}██\color{#3F3F00}████\color{#9F9F7F}██$|$\color{#1F001F}██\color{#3F003F}████\color{#9F7F9F}██$|$\color{#001F1F}██\color{#003F3F}████\color{#7F9F9F}██$|
+|`#3F0000`<br/>Red                                      |`#003F00`<br/>Green                                    |`#00003F`<br/>Blue                                     |`#3F3F00`<br/>Yellow                                   |`#3F003F`<br/>Magenta                                  |`#003F3F`<br/>Cyan|
+|$\color{#3F0000}██\color{#7F0000}████\color{#BF7F7F}██$|$\color{#003F00}██\color{#007F00}████\color{#7FBF7F}██$|$\color{#00003F}██\color{#00007F}████\color{#7F7FBF}██$|$\color{#3F3F00}██\color{#7F7F00}████\color{#BFBF7F}██$|$\color{#3F003F}██\color{#7F007F}████\color{#BF7FBF}██$|$\color{#003F3F}██\color{#007F7F}████\color{#7FBFBF}██$|
+|`#7F0000`                                              |`#007F00`                                              |`#00007F`                                              |`#7F7F00`                                              |`#7F007F`                                              |`#007F7F`|
+|$\color{#5F0000}██\color{#BF0000}████\color{#DF7F7F}██$|$\color{#005F00}██\color{#00BF00}████\color{#7FDF7F}██$|$\color{#00005F}██\color{#0000BF}████\color{#7F7FDF}██$|$\color{#5F5F00}██\color{#BFBF00}████\color{#DFDF7F}██$|$\color{#5F007F}██\color{#BF00BF}████\color{#DF7FDF}██$|$\color{#005F5F}██\color{#00BFBF}████\color{#7FDFDF}██$|
+|`#BF0000`                                              |`#00BF00`                                              |`#0000BF`                                              |`#BFBF00`                                              |`#BF00BF`                                              |`#00BFBF`|
+|$\color{#7F0000}██\color{#FF0000}████\color{#FF7F7F}██$|$\color{#007F00}██\color{#00FF00}████\color{#7FFF7F}██$|$\color{#00007F}██\color{#0000FF}████\color{#7F7FFF}██$|$\color{#7F7F00}██\color{#FFFF00}████\color{#FFFF7F}██$|$\color{#7F007F}██\color{#FF00FF}████\color{#FF7FFF}██$|$\color{#007F7F}██\color{#00FFFF}████\color{#7FFFFF}██$|
+|`#FF0000`                                              |`#00FF00`                                              |`#0000FF`                                              |`#FFFF00`                                              |`#FF00FF`                                              |`#00FFFF`|
+|$\color{#7F1F1F}██\color{#FF3F3F}████\color{#FF9F9F}██$|$\color{#1F7F1F}██\color{#3FFF3F}████\color{#9FFF9F}██$|$\color{#1F1F7F}██\color{#3F3FFF}████\color{#9F9FFF}██$|$\color{#7F7F1F}██\color{#FFFF3F}████\color{#FFFF9F}██$|$\color{#7F1F7F}██\color{#FF3FFF}████\color{#FF9FFF}██$|$\color{#1F7F7F}██\color{#3FFFFF}████\color{#9FFFFF}██$|
+|`#FF3F3F`                                              |`#3FFF3F`                                              |`#3F3FFF`                                              |`#FFFF3F`                                              |`#FF3FFF`                                              |`#3FFFFF`|
+|$\color{#7F3F3F}██\color{#FF7F7F}████\color{#FFBFBF}██$|$\color{#3F7F3F}██\color{#7FFF7F}████\color{#BFFFBF}██$|$\color{#3F3F7F}██\color{#7F7FFF}████\color{#BFBFFF}██$|$\color{#7F7F3F}██\color{#FFFF7F}████\color{#FFFFBF}██$|$\color{#7F3F7F}██\color{#FF7FFF}████\color{#FFBFFF}██$|$\color{#3F7F7F}██\color{#7FFFFF}████\color{#BFFFFF}██$|
+|`#FF7F7F`                                              |`#7FFF7F`                                              |`#7F7FFF`                                              |`#FFFF7F`                                              |`#FF7FFF`                                              |`#7FFFFF`|
+|$\color{#7F5F5F}██\color{#FFBFBF}████\color{#FFDFDF}██$|$\color{#5F7F5F}██\color{#BFFFBF}████\color{#DFFFDF}██$|$\color{#5F5F7F}██\color{#BFBFFF}████\color{#DFDFFF}██$|$\color{#7F7F5F}██\color{#FFFFBF}████\color{#FFFFDF}██$|$\color{#7F5F7F}██\color{#FFBFFF}████\color{#FFDFFF}██$|$\color{#5F7F7F}██\color{#BFFFFF}████\color{#DFFFFF}██$|
+|`#FFBFBF`                                              |`#BFFFBF`                                              |`#BFBFFF`                                              |`#FFFFBF`                                              |`#FFBFFF`                                              |`#BFFFFF`|
+|$\color{#5F3F3F}██\color{#BF7F7F}████\color{#DFBFBF}██$|$\color{#3F5F3F}██\color{#7FBF7F}████\color{#BFDFBF}██$|$\color{#3F3F5F}██\color{#7F7FBF}████\color{#BFBFDF}██$|$\color{#5F5F3F}██\color{#BFBF7F}████\color{#DFDFBF}██$|$\color{#5F3F5F}██\color{#BF7FBF}████\color{#DFBFDF}██$|$\color{#3F5F5F}██\color{#7FBFBF}████\color{#BFDFDF}██$|
+|`#BF7F7F`                                              |`#7FBF7F`                                              |`#7F7FBF`                                              |`#BFBF7F`                                              |`#BF7FBF`                                              |`#7FBFBF`|
+|$\color{#5F1F1F}██\color{#BF3F3F}████\color{#DF9F9F}██$|$\color{#1F5F1F}██\color{#3FBF3F}████\color{#9FDF9F}██$|$\color{#1F1F5F}██\color{#3F3FBF}████\color{#9F9FDF}██$|$\color{#5F5F1F}██\color{#BFBF3F}████\color{#DFDF9F}██$|$\color{#5F1F5F}██\color{#BF3FBF}████\color{#DF9FDF}██$|$\color{#1F5F5F}██\color{#3FBFBF}████\color{#9FDFDF}██$|
+|`#BF3F3F`                                              |`#3FBF3F`                                              |`#3F3FBF`                                              |`#BFBF3F`                                              |`#BF3FBF`                                              |`#3FBFBF`|
+|$\color{#3F1F1F}██\color{#7F3F3F}████\color{#BF9F9F}██$|$\color{#1F3F1F}██\color{#3F7F3F}████\color{#9FBF9F}██$|$\color{#1F1F3F}██\color{#3F3F7F}████\color{#9F9FBF}██$|$\color{#3F3F1F}██\color{#7F7F3F}████\color{#BFBF9F}██$|$\color{#3F1F3F}██\color{#7F3F7F}████\color{#BF9FBF}██$|$\color{#1F3F3F}██\color{#3F7F7F}████\color{#9FBFBF}██$|
+|`#7F3F3F`                                              |`#3F7F3F`                                              |`#3F3F7F`                                              |`#7F7F3F`                                              |`#7F3F7F`                                              |`#3F7F7F`|
+|                                                       |                                                       |                                                       |                                                       |                                                       | |
+|                                                       |                                                       |                                                       |                                                       |                                                       | |
+|$\color{#3F001F}██\color{#7F003F}████\color{#BF7F9F}██$|$\color{#1F3F00}██\color{#3F7F00}████\color{#9FBF7F}██$|$\color{#001F3F}██\color{#003F7F}████\color{#7F9FBF}██$|$\color{#3F1F00}██\color{#7F3F00}████\color{#BF9F7F}██$|$\color{#1F003F}██\color{#3F007F}████\color{#9F7FBF}██$|$\color{#003F1F}██\color{#007F3F}████\color{#7FBF9F}██$|
+|`#7F003F`                                              |`#3F7F00`                                              |`#003F7F`                                              |`#7F3F00`                                              |`#3F007F`                                              |`#007F3F`|
+|$\color{#5F001F}██\color{#BF003F}████\color{#DF7F9F}██$|$\color{#1F5F00}██\color{#3FBF00}████\color{#9FDF7F}██$|$\color{#001F5F}██\color{#003FBF}████\color{#7F9FDF}██$|$\color{#5F1F00}██\color{#BF3F00}████\color{#DF9F7F}██$|$\color{#1F005F}██\color{#3F00BF}████\color{#9F7FDF}██$|$\color{#005F1F}██\color{#00BF3F}████\color{#7FDF9F}██$|
+|`#BF003F`                                              |`#3FBF00`                                              |`#003FBF`                                              |`#BF3F00`                                              |`#3F00BF`                                              |`#00BF3F`|
+|$\color{#5F003F}██\color{#BF007F}████\color{#DF7FBF}██$|$\color{#3F5F00}██\color{#7FBF00}████\color{#BFDF7F}██$|$\color{#003F5F}██\color{#007FBF}████\color{#7FBFDF}██$|$\color{#5F3F00}██\color{#BF7F00}████\color{#DFBF7F}██$|$\color{#3F005F}██\color{#7F00BF}████\color{#BF7FDF}██$|$\color{#005F3F}██\color{#00BF7F}████\color{#7FDFBF}██$|
+|`#BF007F`                                              |`#7FBF00`                                              |`#007FBF`                                              |`#BF7F00`                                              |`#7F00BF`                                              |`#00BF7F`|
+|$\color{#5F1F3F}██\color{#BF3F7F}████\color{#DF9FBF}██$|$\color{#3F5F1F}██\color{#7FBF3F}████\color{#BFDF9F}██$|$\color{#1F3F5F}██\color{#3F7FBF}████\color{#9FBFDF}██$|$\color{#5F3F1F}██\color{#BF7F3F}████\color{#DFBF9F}██$|$\color{#3F1F5F}██\color{#7F3FBF}████\color{#BF9FDF}██$|$\color{#1F5F3F}██\color{#3FBF7F}████\color{#9FDFBF}██$|
+|`#BF3F7F`<br/>--                                       |`#7FBF3F`<br/>--                                       |`#3F7FBF`<br/>--                                       |`#BF7F3F`<br/>Brown                                    |`#7F3FBF`<br/>--                                       |`#3FBF7F`<br/>--|
+|$\color{#7F003F}██\color{#FF007F}████\color{#FF7FBF}██$|$\color{#3F7F00}██\color{#7FFF00}████\color{#BFFF7F}██$|$\color{#003F7F}██\color{#007FFF}████\color{#7FBFFF}██$|$\color{#7F3F00}██\color{#FF7F00}████\color{#FFBF7F}██$|$\color{#3F007F}██\color{#7F00FF}████\color{#BF7FFF}██$|$\color{#007F3F}██\color{#00FF7F}████\color{#7FFFBF}██$|
+|`#FF007F`<br/>Pink                                     |`#7FFF00`<br/>--                                       |`#007FFF`<br/>Azure                                    |`#FF7F00`<br/>Orange                                   |`#7F00FF`<br/>Violet                                   |`#00FF7F`<br/>--|
+|$\color{#7F1F5F}██\color{#FF3FBF}████\color{#FF9FDF}██$|$\color{#5F7F1F}██\color{#BFFF3F}████\color{#DFFF9F}██$|$\color{#1F5F7F}██\color{#3FBFFF}████\color{#9FDFFF}██$|$\color{#7F5F1F}██\color{#FFBF3F}████\color{#FFDF9F}██$|$\color{#5F1F7F}██\color{#BF3FFF}████\color{#DF9FFF}██$|$\color{#1F7F5F}██\color{#3FFFBF}████\color{#9FFFDF}██$|
+|`#FF3FBF`                                              |`#BFFF3F`                                              |`#3FBFFF`                                              |`#FFBF3F`                                              |`#BF3FFF`                                              |`#3FFFBF`|
+|$\color{#7F001F}██\color{#FF003F}████\color{#FF7F9F}██$|$\color{#1F7F00}██\color{#3FFF00}████\color{#9FFF7F}██$|$\color{#001F7F}██\color{#003FFF}████\color{#7F9FFF}██$|$\color{#7F1F00}██\color{#FF3F00}████\color{#FF9F7F}██$|$\color{#1F007F}██\color{#3F00FF}████\color{#9F7FFF}██$|$\color{#007F1F}██\color{#00FF3F}████\color{#7FFF9F}██$|
+|`#FF003F`                                              |`#3FFF00`                                              |`#003FFF`                                              |`#FF3F00`                                              |`#3F00FF`                                              |`#00FF3F`|
+|$\color{#7F1F3F}██\color{#FF3F7F}████\color{#FF9FBF}██$|$\color{#3F7F1F}██\color{#7FFF3F}████\color{#BFFF9F}██$|$\color{#1F3F7F}██\color{#3F7FFF}████\color{#9FBFFF}██$|$\color{#7F3F1F}██\color{#FF7F3F}████\color{#FFBF9F}██$|$\color{#3F1F7F}██\color{#7F3FFF}████\color{#BF9FFF}██$|$\color{#1F7F3F}██\color{#3FFF7F}████\color{#9FFFBF}██$|
+|`#FF3F7F`                                              |`#7FFF3F`                                              |`#3F7FFF`                                              |`#FF7F3F`                                              |`#7F3FFF`                                              |`#3FFF7F`|
+|$\color{#7F005F}██\color{#FF00BF}████\color{#FF7FDF}██$|$\color{#5F7F00}██\color{#BFFF00}████\color{#DFFF7F}██$|$\color{#005F7F}██\color{#00BFFF}████\color{#7FDFFF}██$|$\color{#7F5F00}██\color{#FFBF00}████\color{#FFDF7F}██$|$\color{#5F007F}██\color{#BF00FF}████\color{#DF7FFF}██$|$\color{#007F5F}██\color{#00FFBF}████\color{#7FFFDF}██$|
+|`#FF00BF`                                              |`#BFFF00`                                              |`#00BFFF`                                              |`#FFBF00`                                              |`#BF00FF`                                              |`#00FFBF`|
+|$\color{#7F3F5F}██\color{#FF7FBF}████\color{#FFBFDF}██$|$\color{#5F7F3F}██\color{#BFFF7F}████\color{#DFFFBF}██$|$\color{#3F5F7F}██\color{#7FBFFF}████\color{#BFDFFF}██$|$\color{#7F5F3F}██\color{#FFBF7F}████\color{#FFDFBF}██$|$\color{#5F3F7F}██\color{#BF7FFF}████\color{#DFBFFF}██$|$\color{#3F7F5F}██\color{#7FFFBF}████\color{#BFFFDF}██$|
+|`#FF7FBF`                                              |`#BFFF7F`                                              |`#7FBFFF`                                              |`#FFBF7F`                                              |`#BF7FFF`                                              |`#7FFFBF`|
 
 
